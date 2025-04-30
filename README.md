@@ -20,8 +20,8 @@ Users simply upload a photo of waste, and TrashNet identifies the category — p
 
 - **Model Training**: Python, TensorFlow, Keras  
 - **Data Handling**: OpenCV, NumPy, Pandas  
-- **Front-End**: HTML, CSS, JavaScript (React/Vanilla)  
-- **Back-End**: Node.js / Flask (depending on the stack used), RESTful APIs  
+- **Front-End**: HTML, CSS, JavaScript
+- **Back-End**: Flask (depending on the stack used)  
 - **Dataset**: Custom image dataset of labeled waste categories  
 
 ---
