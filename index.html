@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="home">
+        <div id="filter">
+            <div class="container">
+                <nav>
+                    <div id="site-name">EVO<span>Care</span></div>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Common Diseases</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="quote">
+                    <div class="q1">Every Change Begins with <span>Awareness</span></div>
+                    <div class="q2">Join us in restoring the balance — one action at a time.</div>
+
+                    
+                    <form id="upload-form">
+                        <div class="file-upload-wrapper">
+                            <label for="upload-box" class="file-upload-label">
+                                Choose Image
+                            </label>
+                            <input type="file" id="upload-box" accept="image/*" name="image">
+                        </div>
+                        <div id="file-name-display" class="file-name"></div>
+                        <input id="send-button" type="submit" value="Predict">
+                    </form>
+
+                    <!-- Result section -->
+                    <div id="result" class="result-display"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
