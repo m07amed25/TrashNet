@@ -46,9 +46,3 @@ Users simply upload a photo of waste, and TrashNet identifies the category — p
 ## 🌍 Impact
 
 TrashNet promotes environmental awareness and automation in waste management. It’s a step toward smarter cities and cleaner communities, especially when integrated with real-world systems like sorting bins or recycling stations.
-
----
-
-## 🔗 Repository
-
-GitHub: [https://github.com/m07amed25/TrashNet](https://github.com/m07amed25/TrashNet)
