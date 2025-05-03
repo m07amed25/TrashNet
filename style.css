@@ -11,7 +11,7 @@ body {
     background: linear-gradient(
         rgba(0, 51, 102, 0.4), 
         rgba(25, 92, 121, 0.5)
-    ), url("img/nature.jpg") center/cover no-repeat;
+    ), url("nature.jpg") center/cover no-repeat;
     color: #fff;
 }
 
