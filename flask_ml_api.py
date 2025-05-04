@@ -1,23 +1,21 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import load_model  #type: ignore
+from tensorflow.keras.preprocessing import image    #type: ignore
 import numpy as np
 import tensorflow as tf
 import os
 
 app = Flask(__name__)
 
-# Setup CORS properly
 CORS(app, resources={
     r"/predict": {
-        "origins": "*",        # حاليًا بيسمح لأي دومين
-        "methods": ["POST"],   # بس POST لأن هو اللي محتاجينه
+        "origins": "*", 
+        "methods": ["POST"],
         "allow_headers": ["Content-Type"]
     }
 })
 
-# Load the trained model
 model = load_model('best_model.h5')
 
 class_names = ["cardboard", "glass", "metal", "paper", "plastic", "trash"]
