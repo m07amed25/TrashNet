@@ -8,13 +8,19 @@ body {
 
 #home {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 117, 178, 0.5), rgba(0, 65, 115, 0.5)), url("img/nature.jpg") center/cover no-repeat;
+    background: linear-gradient(
+        rgba(0, 51, 102, 0.4), 
+        rgba(25, 92, 121, 0.5)
+    ), url("nature.jpg") center/cover no-repeat;
     color: #fff;
 }
 
 #filter {
     min-height: 100vh;
-    background: rgba(0, 24, 54, 0.6);
+    background: linear-gradient(
+        rgba(0, 51, 102, 0.3),
+        rgba(25, 92, 121, 0.5)
+    );
     padding-bottom: 2rem;
 }
 
